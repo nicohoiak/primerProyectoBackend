@@ -1,7 +1,13 @@
 import fs from 'fs'
+import express from 'express'
 
-/* const fs = require('fs').promises; */
+const app = express()
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
+app.listen(PORT, () => {
+    console.log(`Primer backend activo en puerto ${PORT}`)
+})
 class ProductManager {
 
     constructor(path) {
