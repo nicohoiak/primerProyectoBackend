@@ -1,6 +1,6 @@
-import fs from 'fs'
-import { v4 as uuidv4 } from 'uuidv4'
-
+/* import fs from 'fs' */
+/* import { v4 as uuidv4 } from 'uuidv4' */
+/* 
 export class CartManager {
     constructor() {
         this.path = ' cart.json';
@@ -22,9 +22,9 @@ export class CartManager {
         } else {
             console.log('Cart Not Found')
         }
-    }
+    } */
 
-    newCart = async () => {
+/*     newCart = async () => {
         const id = uuidv4()
 
         const newCart = { id, products: [] }
@@ -58,4 +58,4 @@ export class CartManager {
             console.log('Cart Not Found')
         }
     }
-}
+} */

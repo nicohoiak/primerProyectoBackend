@@ -1,17 +1,17 @@
-import fs from 'fs'
-import { v4 as uuidv4 } from 'uuid';
+/* import fs from 'fs' */
+/* import { v4 as uuidv4 } from 'uuid'; */
 
-export class ProductManager {
+/* export class ProductManager {
 
     constructor() {
         this.path = 'products.json';
         this.products = [];
-    }
+    } */
 
-    addProduct = async ({ title, description, price, thumbnail, code, stock, status, category }) => {
-        const id = uuidv4()
+    /* addProduct = async ({ title, description, price, thumbnail, code, stock, status, category }) => */ 
+        /* const id = uuidv4() */
 
-        let newProduct = { id, title, description, price, thumbnail, code, stock, status, category }
+        /* let newProduct = { id, title, description, price, thumbnail, code, stock, status, category }
 
         this.products = await this.getProducts()
         this.products.push(newProduct)
@@ -63,4 +63,4 @@ export class ProductManager {
         }
 
     }
-}
+} */
